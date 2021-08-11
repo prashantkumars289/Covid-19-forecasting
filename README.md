@@ -4,9 +4,20 @@ We will be able to find the rate of spread of the disease in the upcoming days w
 We used "Rolling Forecast ARIMA" model to do the forecasting.
 
 Following are the steps that we followed to do the forecasting:
-1) Collected data, and cleaned it.
-2) Tried different model of data analysis and modeling like SIR model, ARIMA model. SIR model didn't work because it only works for a small population. So, finally we incorporated Rolling Forecast Arima model
-3) After predicting, we visualized our raw data and the predicted data using different graphs.
+
+1) We have collected time series data from github of confirmed cases, recovered cases ,death
+cases.
+
+2) We dropped insignificant columns such as ‘Lat’, ‘Long’, ‘Country/Region’ , ‘Province/State.
+Since the dataset for active cases was not available, we prepared the dataset of active cases by:
+active = confirmed -(recovered + death).
+
+3) We have collected data from 22 jan to today and we are focusing on India.So we have filtered
+out the data for India only.
+
+4) Tried different model of data analysis and modeling like SIR model, ARIMA model. SIR model didn't work because it only works for a small population. So, finally we incorporated Rolling Forecast Arima model
+
+5) After predicting, we visualized our raw data and the predicted data using different graphs.
 
 
-NOTE:- Run the attached file DS250_Project.ipynb.
+NOTE:- Run the attached file DS250_Project.ipynb and see the attached ppt.
