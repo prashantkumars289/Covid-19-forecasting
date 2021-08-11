@@ -20,4 +20,7 @@ out the data for India only.
 5) After predicting, we visualized our raw data and the predicted data using different graphs.
 
 
-NOTE:- Run the attached file DS250_Project.ipynb and see the attached ppt.
+NOTE:-
+1) DS250_Project.ipynb: Run the file DS250_Project.ipynb
+2) Final_Forecasting.png: See the final graph of forecasting for 15 days
+3) Covid-19_Analysis_presentation.pdf: See the pdf to understand the project in depth.
